@@ -28,5 +28,6 @@ class MainActivity : AppCompatActivity() {
             .load("https://images.unsplash.com/photo-1555169062-013468b47731?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D")
             .into(binding.imageView3)
 
+
     }
 }

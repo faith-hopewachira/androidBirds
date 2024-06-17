@@ -31,9 +31,10 @@ class ThirdBirdActivity : AppCompatActivity() {
         })
         Picasso
             .get()
-            .load("https://images.unsplash.com/photo-1497206365907-f5e630693df0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJpcmR8ZW58MHx8MHx8fDA%3D")
+            .load("https://images.unsplash.com/photo-1573739711422-68a9d0aa7d6b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhdXRpZnVsJTIwYmlyZHxlbnwwfHwwfHx8MA%3D%3D")
             .resize(1000, 1000)
             .centerInside()
             .into(binding.imageView5)
     }
 }
+

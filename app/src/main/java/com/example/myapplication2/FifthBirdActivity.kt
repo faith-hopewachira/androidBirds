@@ -20,14 +20,14 @@ class FifthBirdActivity : AppCompatActivity() {
         setContentView(binding.root)
 //        val btnPrev4 = findViewById<ImageView>(R.id.btnPrev4)
 
-        binding.btnPrev4.setOnClickListener({
+        binding.btnPrev2.setOnClickListener({
             finish()
         })
         Picasso
             .get()
-            .load("https://images.unsplash.com/photo-1539664030485-a936c7d29c6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D")
-            .resize(2800, 2000)
-            .centerInside()
+            .load("https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmlyZHxlbnwwfHwwfHx8MA%3D%3D")
+//            .resize(2800, 2000)
+//            .centerInside()
             .into(binding.imageView2)
     }
 }

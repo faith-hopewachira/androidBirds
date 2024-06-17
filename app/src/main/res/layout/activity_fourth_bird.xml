@@ -9,11 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="centerInside"
+        android:layout_width="355dp"
+        android:layout_height="472dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -38,9 +42,12 @@
         android:id="@+id/btnPrev3"
         android:layout_width="53dp"
         android:layout_height="62dp"
+        android:layout_marginStart="4dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375"
         app:srcCompat="@drawable/left_arrow_svgrepo_com__1_" />
 
     <ImageView

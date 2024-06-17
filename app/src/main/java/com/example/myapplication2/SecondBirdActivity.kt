@@ -30,9 +30,10 @@ class SecondBirdActivity : AppCompatActivity() {
         Picasso
             .get()
             .load("https://images.unsplash.com/photo-1518992028580-6d57bd80f2dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJpcmR8ZW58MHx8MHx8fDA%3D")
-            .resize(1000, 1000)
             .centerInside()
+            .resize(500,800)
             .into(binding.imageView)
+
 
 
     }

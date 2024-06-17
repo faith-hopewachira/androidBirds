@@ -9,11 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitEnd"
+        android:layout_width="361dp"
+        android:layout_height="482dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -37,11 +41,10 @@
         android:id="@+id/btnPrev2"
         android:layout_width="50dp"
         android:layout_height="56dp"
-        android:layout_marginStart="4dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662"
+        app:layout_constraintVertical_bias="0.493"
         app:srcCompat="@drawable/left_arrow_svgrepo_com__1_" />
 
     <ImageView
@@ -51,7 +54,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/btnPrev2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnPrev2"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/right_arrow_svgrepo_com" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
